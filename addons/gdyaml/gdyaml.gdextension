@@ -1,0 +1,14 @@
+[configuration]
+
+singleton=false
+load_once=true
+entry_symbol="godot_"
+
+[libraries]
+
+windows.64="win64/libgodotyaml.dll"
+[dependencies]
+
+x11.64=[]
+windows.64=[]
+osx.64=[]
